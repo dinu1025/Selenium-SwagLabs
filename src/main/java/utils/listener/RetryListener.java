@@ -3,8 +3,6 @@ package utils.listener;
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;
 
-import utils.RetryAnalyzerImpl;
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 

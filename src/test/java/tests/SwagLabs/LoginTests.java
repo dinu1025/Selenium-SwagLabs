@@ -10,7 +10,7 @@ import io.qameta.allure.testng.AllureTestNg;
 import pages.swaglabs.LoginPage;
 import pages.swaglabs.ProductsPage;
 import utils.JsonDataProvider;
-import utils.RetryAnalyzerImpl;
+import utils.listener.RetryAnalyzerImpl;
 import utils.listener.RetryListener;
 
 @Listeners({AllureTestNg.class}) 
