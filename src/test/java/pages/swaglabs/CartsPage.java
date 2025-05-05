@@ -1,10 +1,11 @@
 package pages.swaglabs;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CartsPage extends BasePage {
-
+    public static final Logger logger = Logger.getLogger(CartsPage.class.getName());
     private By checkoutButton = By.id("checkout");
 
     public CartsPage(WebDriver driver) {

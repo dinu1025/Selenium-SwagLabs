@@ -3,7 +3,7 @@
 <suite name="SwagLabs" parallel="tests" thread-count="1">
     <listeners>
         <listener class-name="utils.listener.RetryListener" />
-    </listeners>
+    </listeners> 
     <test name="Login">
         <classes>
             <class name="tests.SwagLabs.LoginTests" />

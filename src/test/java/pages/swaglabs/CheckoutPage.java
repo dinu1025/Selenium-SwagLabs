@@ -1,10 +1,11 @@
 package pages.swaglabs;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CheckoutPage extends BasePage {
-
+    public static final Logger logger = Logger.getLogger(CheckoutPage.class.getName());
     private By firstNameField = By.cssSelector("[placeholder=\"First Name\"]");
     private By lastNameField = By.cssSelector("[placeholder=\"Last Name\"]");
     private By zipCodeField = By.cssSelector("[placeholder=\"Zip/Postal Code\"]");

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 public class LoginPage extends BasePage {
-    public static final Logger logger = Logger.getLogger(BasePage.class.getName());
+    public static final Logger logger = Logger.getLogger(LoginPage.class.getName());
     private By username = new By.ById("user-name");
     private By password = new By.ByName("password");
     private By loginButton = new By.ByClassName("submit-button");

@@ -49,12 +49,12 @@ public class BasePage {
     }
     
     public WebElement findElementBy(By locator) {
-        logger.info(String.format("Finding element: ", locator));
+        logger.info(String.format("Finding element: %s", locator));
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     public List<WebElement> findElementsBy(By locator) {
-        logger.info(String.format("Finding all elements for: ", locator));
+        logger.info(String.format("Finding all elements for: %s", locator));
         return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
     }
 

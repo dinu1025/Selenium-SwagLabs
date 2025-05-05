@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class ProductsPage extends BasePage {
-    public static final Logger logger = Logger.getLogger(BasePage.class.getName());
+    public static final Logger logger = Logger.getLogger(ProductsPage.class.getName());
     private final By pageHeading = By.className("title");
     private final By addToCartButton = By.id("add-to-cart");
 
